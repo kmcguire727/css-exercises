@@ -6,16 +6,15 @@
 }
 
 #two {
-    color: rgb(20, 20, 178);
+    color: hsl(240, 80%, 39%);
     font-size: 36px;
 }
 
-.three {
+.font-size-adj {
     font-size: 24px;
 }
 
 #four {
-    background-color: rgb(154, 221, 154);
-    font-size: 24px;
+    background-color: #6bae6b;
     font-weight: bold;
 }
