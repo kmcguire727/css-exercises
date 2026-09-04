@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 4px;
 }
 
 .right {
@@ -29,10 +30,19 @@ body {
   padding-right: 16px;
 }
 
+.modal-body {
+  padding-right: 8px;
+}
+
 .modal-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 0px; 
+}
+
+.header {
+  font-weight: bolder;
 }
 
 .icon {
@@ -83,3 +93,9 @@ button.cancel {
   color: royalblue;
 }
 
+.modal-footer {
+  display: flex;
+  margin: 8px 0px; 
+  padding: 8px 0px; 
+  gap: 4px;
+}
